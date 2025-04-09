@@ -1,0 +1,8 @@
+.music-player {
+  border-top: 1px solid #444;
+  backdrop-filter: blur(10px);
+}
+
+#seekbar, #volume {
+  cursor: pointer;
+}
