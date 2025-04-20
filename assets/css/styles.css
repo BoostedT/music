@@ -31,7 +31,7 @@ body {
 
 .music-player {
   /* music player styling */
-  background-color: black;
+  background-image: linear-gradient(#000000 0%, #131313 100%);
 }
 
 .nav-link:hover {
