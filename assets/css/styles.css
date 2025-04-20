@@ -39,6 +39,11 @@ body {
   background-color: rgba(200, 200, 200, 0.302);
 }
 
+.nav-link:active {
+  /* transparent background for nav item hover */
+  background-color: rgba(87, 87, 87, 0.302);
+}
+
 .main-header {
   font-size: 3em;
   font-style: italic;
@@ -51,4 +56,17 @@ body {
 .track-title {
   font-style: italic;
   font-size: 1.3em;
+}
+
+.album-covers {
+  scale: 0.4;
+}
+
+.media-button {
+  scale: 0.6;
+}
+
+.media-button:hover {
+  scale: 0.7;
+  transition: 0.2s ease-in-out;
 }
