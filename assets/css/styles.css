@@ -80,11 +80,11 @@ body {
 }
 
 .bullet-green::marker {
-  color: #00cb11;
+  color: #55ff00;
 }
 
 .bullet-red::marker {
-  color: red;
+  color: #ff0000;
 }
 
 .features-list li::marker {
@@ -113,4 +113,10 @@ body {
 
 .dashboard-buttons:active {
   scale: 0.9;
+}
+
+@media (min-width: 992px) {
+  .cards-container {
+    margin-left: 20px;
+  }
 }
