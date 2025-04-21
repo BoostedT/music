@@ -70,3 +70,11 @@ body {
   scale: 0.7;
   transition: 0.2s ease-in-out;
 }
+
+.premium-headers h1 {
+  scale: 1.2;
+}
+
+.red-circle {
+  scale: 0.04;
+}
