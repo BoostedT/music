@@ -79,3 +79,18 @@ body {
   scale: 0.01;
 }
 
+.bullet-green::marker {
+  color: #00cb11;
+}
+
+.bullet-red::marker {
+  color: red;
+}
+
+.features-list li::marker {
+  font-size: 1.5em;
+}
+
+.card {
+  background-color: #0000004a;
+}
