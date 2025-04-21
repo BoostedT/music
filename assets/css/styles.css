@@ -94,3 +94,23 @@ body {
 .card {
   background-color: #0000004a;
 }
+
+.dashboard-input {
+  border-radius: 5px;
+  border: none;
+}
+
+.dashboard-buttons {
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+}
+
+.dashboard-buttons:hover {
+  background-color: black;
+  color: white;
+}
+
+.dashboard-buttons:active {
+  scale: 0.9;
+}
