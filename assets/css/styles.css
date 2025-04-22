@@ -108,6 +108,7 @@ body {
 
 .dashboard-buttons:hover {
   background-color: black;
+  transition: 0.3s ease;
   color: white;
 }
 
@@ -116,7 +117,7 @@ body {
 }
 
 @media (min-width: 992px) {
-  .cards-container {
+  .packages-cards-container {
     margin-left: 20px;
   }
 }
@@ -124,7 +125,8 @@ body {
 .artist-card {
   height: 160px;
   width: 400px;
-  margin: 40px;
+  margin: 30px;
+  margin-left: 66px;
 }
 
 .artist-desc {
@@ -141,4 +143,8 @@ body {
 
 .artist-card h3 {
   font-style: italic;
+}
+
+.basic-card {
+  border: 3px solid rgb(0, 157, 255);
 }
