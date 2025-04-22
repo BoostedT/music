@@ -120,3 +120,12 @@ body {
     margin-left: 20px;
   }
 }
+
+.artist-card {
+  height: 160px;
+  width: 400px;
+}
+
+.artist-desc {
+  font-size: 12px;
+}
