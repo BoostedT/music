@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Albums</title>
+  <title>Liked Songs</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Unbounded:wght@200..900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css" />
   <link rel="icon" href="assets/images/favicon.ico">
 </head>
+
 <body>
   <div class="container-fluid">
     <div class="row">
@@ -54,144 +58,84 @@
           <input class="form-control me-2" type="search" placeholder="Search music..." style="max-width: 300px;">
           <button class="btn btn-primary">Search</button>
         </div> -->
-        <h1 class="main-header mb-xl-3 text-white text-center">Albums</h1>
-        <h4 class="main-subtitle text-white mb-xl-4 text-center">Your Personalized Collection of Albums</h4>
-        <div class="row row-cols-md-3 g-4">
-          <div class="card artist-card">
+        <h1 class="main-header mb-xl-3 text-white text-center">Liked Songs</h1>
+        <h4 class="main-subtitle text-white mb-xl-4 text-center">Your Liked Songs</h4>
+        <div class="row row-cols-md-3 g-4 text-center">
+          <div class="card playlist-card" data-track="0">
             <div class="card-body">
               <div class="row">
                 <div class="col-xl-1">
-                  <img src="assets/images/chainsmokers.png" alt="The Chainsmokers">
+                  <img src="assets/images/GNXCOVER.png" alt="Kendrick Lamar">
                 </div>
                 <div class="col">
-                  <h3 class="card-text text-center text-white offset-xl-5">Paris</3>
-                    <p class="artist-desc">The Chainsmokers</p>
-                    <p class="amount-played">3:41</p>
-                    <p class="amount-played">1.2 Billion Plays</p>
+                  <h3 class="card-text">TV Off</h3>
+                  <p class="artist-desc">Kendrick Lamar</p>
+                  <p class="amount-played">3:40</p>
+                  <p class="amount-played">500 Million Plays</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="card artist-card">
+
+          <div class="card playlist-card" data-track="1">
             <div class="card-body">
               <div class="row">
                 <div class="col-xl-1">
-                  <img src="assets/images/bazzipfp.png" alt="Bazzi">
+                  <img src="assets/images/chicken.png" alt="Zac Brown Band">
                 </div>
                 <div class="col">
-                  <h3 class="card-text text-center text-white offset-xl-5">Paradise</3>
-                    <p class="artist-desc">Bazzi</p>
-                    <p class="amount-played">2:49</p>
-                    <p class="amount-played">628 Million Plays</p>
+                  <h3 class="card-text">Chicken Fried</h3>
+                  <p class="artist-desc">Zac Brown Band</p>
+                  <p class="amount-played">3:58</p>
+                  <p class="amount-played">791 Million Plays</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="card artist-card">
+
+          <div class="card playlist-card" data-track="2">
             <div class="card-body">
               <div class="row">
                 <div class="col-xl-1">
-                  <img src="assets/images/tatepfp.png" alt="Tate McRae">
+                  <img src="assets/images/WKND COVER.png" alt="The Weeknd">
                 </div>
                 <div class="col">
-                  <h3 class="card-text text-center text-white offset-xl-5">Nostalgia</3>
-                    <p class="artist-desc">Tate McRae</p>
-                    <p class="amount-played">3:03</p>
-                    <p class="amount-played">20.3 Million Plays</p>
+                  <h3 class="card-text">Starboy</h3>
+                  <p class="artist-desc">The Weeknd</p>
+                  <p class="amount-played">3:50</p>
+                  <p class="amount-played">3.8 Billion Plays</p>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="row row-cols-md-3 g-4">
-          <div class="card artist-card">
+
+          <div class="card playlist-card" data-track="3">
             <div class="card-body">
               <div class="row">
                 <div class="col-xl-1">
-                  <img src="assets/images/chainsmokers.png" alt="The Chainsmokers">
+                  <img src="assets/images/creed.jpg" alt="Creed">
                 </div>
                 <div class="col">
-                  <h3 class="card-text text-center text-white offset-xl-5">Paris</3>
-                    <p class="artist-desc">The Chainsmokers</p>
-                    <p class="amount-played">3:41</p>
-                    <p class="amount-played">1.2 Billion Plays</p>
+                  <h3 class="card-text">One Last Breath</h3>
+                  <p class="artist-desc">Creed</p>
+                  <p class="amount-played">3:58</p>
+                  <p class="amount-played">510 Million Plays</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="card artist-card">
+
+          <div class="card playlist-card" data-track="4">
             <div class="card-body">
               <div class="row">
                 <div class="col-xl-1">
-                  <img src="assets/images/bazzipfp.png" alt="Bazzi">
+                  <img src="assets/images/post.jpg" alt="Post Malone">
                 </div>
                 <div class="col">
-                  <h3 class="card-text text-center text-white offset-xl-5">Paradise</3>
-                    <p class="artist-desc">Bazzi</p>
-                    <p class="amount-played">2:49</p>
-                    <p class="amount-played">628 Million Plays</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card artist-card">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-xl-1">
-                  <img src="assets/images/tatepfp.png" alt="Tate McRae">
-                </div>
-                <div class="col">
-                  <h3 class="card-text text-center text-white offset-xl-5">Nostalgia</3>
-                    <p class="artist-desc">Tate McRae</p>
-                    <p class="amount-played">3:03</p>
-                    <p class="amount-played">20.3 Million Plays</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row row-cols-md-3 g-4">
-          <div class="card artist-card">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-xl-1">
-                  <img src="assets/images/chainsmokers.png" alt="The Chainsmokers">
-                </div>
-                <div class="col">
-                  <h3 class="card-text text-center text-white offset-xl-5">Paris</3>
-                    <p class="artist-desc">The Chainsmokers</p>
-                    <p class="amount-played">3:41</p>
-                    <p class="amount-played">1.2 Billion Plays</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card artist-card">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-xl-1">
-                  <img src="assets/images/bazzipfp.png" alt="Bazzi">
-                </div>
-                <div class="col">
-                  <h3 class="card-text text-center text-white offset-xl-5">Paradise</3>
-                    <p class="artist-desc">Bazzi</p>
-                    <p class="amount-played">2:49</p>
-                    <p class="amount-played">628 Million Plays</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card artist-card">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-xl-1">
-                  <img src="assets/images/tatepfp.png" alt="Tate McRae">
-                </div>
-                <div class="col">
-                  <h3 class="card-text text-center text-white offset-xl-5">Nostalgia</3>
-                    <p class="artist-desc">Tate McRae</p>
-                    <p class="amount-played">3:03</p>
-                    <p class="amount-played">20.3 Million Plays</p>
+                  <h3 class="card-text">Deja Vu</h3>
+                  <p class="artist-desc">Post Malone</p>
+                  <p class="amount-played">3:54</p>
+                  <p class="amount-played">3.7 Million Plays</p>
                 </div>
               </div>
             </div>
@@ -216,9 +160,9 @@
         <!--⏮️-->
         <!-- button id="prev-btn" class="btn btn-sm btn-light me-2"></button -->
         <!-- img src="assets/images/prev.png" id="prev-btn" class="media-button" alt="previous-button" -->
-         <a href="#" id="prev-btn" class="media-button">
+        <a href="#" id="prev-btn" class="media-button">
           <img src="assets/images/prev.png" class="buttontest" alt="">
-         </a>
+        </a>
         <!-- button id="play-pause-btn" class="btn btn-sm btn-light me-2">▶️</button -->
         <img src="assets/images/play.png" id="play-pause-btn" class="media-button offset-xl-1" alt="play-pause-btn">
         <!-- button id="next-btn" class="btn btn-sm btn-light me-4">⏭️</button -->
@@ -238,4 +182,5 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/script.js"></script>
 </body>
+
 </html>
