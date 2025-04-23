@@ -238,3 +238,7 @@ body {
 .header-alignment {
   font-size: 1.2em;
 }
+
+.next-button {
+  margin-right: 100px;
+}
