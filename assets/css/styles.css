@@ -122,6 +122,19 @@ body {
   margin-left: 70px;
 }
 
+@media (max-width: 768px) {
+  .artist-card {
+    margin-bottom: -10px;
+  }
+}
+
+@media (max-width: 992px) {
+  .artist-card {
+    margin-bottom: -10px;
+    margin: 0 auto;
+  }
+}
+
 .artist-desc {
   font-size: 12px;
 }
@@ -267,5 +280,19 @@ body {
 @media (max-width: 992px) {
   .artist-image {
     scale: 0.7
+  }
+}
+
+@media (max-width: 768px) {
+  .card-info {
+    margin-left: 140px;
+    margin-top: -115px;
+  }
+}
+
+@media (max-width: 992px) {
+  .card-info {
+    margin-left: 140px;
+    margin-top: -115px;
   }
 }
