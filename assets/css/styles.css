@@ -2,10 +2,6 @@
   font-family: "Inter SemiBold";
 }
 
-.brand-name {
-  font-size: 3em;
-}
-
 .music-player {
   border-top: 1px solid #444;
   backdrop-filter: blur(10px);
@@ -241,4 +237,22 @@ body {
 
 .next-button {
   margin-right: 100px;
+}
+
+@media (max-width: 992px) {
+  .brand-name-packages {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 992px) {
+  .price-change {
+    font-size: 1.3em;
+  }
+}
+
+@media (max-width: 992px) {
+  .artist-image {
+    scale: 0.7
+  }
 }
