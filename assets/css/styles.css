@@ -226,3 +226,11 @@ body {
   font-size: 20px;
   margin-bottom: 15px;
 }
+
+.new-cards {
+  margin-left: 15px;
+}
+
+.releasedDate {
+  margin-left: 15px;
+}
