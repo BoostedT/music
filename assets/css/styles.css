@@ -218,6 +218,19 @@ body {
   margin-top: -7px;
 }
 
+@media (max-width: 768px) {
+  .pop-card,
+  .country-card,
+  .rock-card,
+  .rnb-card,
+  .soul-card,
+  .metal-card,
+  .blues-card,
+  .lofi-card {
+    height: 60px;
+  }
+}
+
 .amount-played {
   font-size: 20px;
   margin-bottom: 15px;
