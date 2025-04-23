@@ -173,3 +173,20 @@ body {
 .card:hover .album-covers {
   transform: scale(1.05);
 }
+
+.waveimage {
+  scale: 0.6;
+  margin-left: -105px;
+}
+
+.playlist-row {
+  margin-right: 150px;
+}
+
+.playlists-header {
+  margin-right: 150px;
+}
+
+.playlists-subtitle {
+  margin-right: 150px;
+}
