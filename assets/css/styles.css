@@ -1,5 +1,5 @@
 * {
-  font-family: 'Inter SemiBold';
+  font-family: "Inter SemiBold";
 }
 
 .brand-name {
@@ -11,7 +11,8 @@
   backdrop-filter: blur(10px);
 }
 
-#seekbar, #volume {
+#seekbar,
+#volume {
   cursor: pointer;
 }
 
@@ -22,11 +23,11 @@
 }
 
 .sidebar {
-  background-image: linear-gradient(#01133D 0%, #000925 20%, #00BBFF 100%);
+  background-image: linear-gradient(#01133d 0%, #000925 20%, #00bbff 100%);
 }
 
 body {
-  background-image: linear-gradient(#00022D 0%, #00E5FF 100%);
+  background-image: linear-gradient(#00022d 0%, #00e5ff 100%);
 }
 
 .music-player {
@@ -91,10 +92,6 @@ body {
   font-size: 1.5em;
 }
 
-.card {
-  background-color: #0000004a;
-}
-
 .dashboard-input {
   border-radius: 5px;
   border: none;
@@ -154,6 +151,30 @@ body {
     font-size: 26px;
   }
 }
+<<<<<<< HEAD
+.card {
+  background-color: rgba(0, 0, 0, 0.29);
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+  color: white;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.album-covers {
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+.card:hover .album-covers {
+  transform: scale(1.05);
+}
+=======
 
 .pop-card {
   border: 2px solid rgb(0, 123, 255);
@@ -238,3 +259,4 @@ body {
 .genre-card-items {
   margin-left: 40px;
 }
+>>>>>>> 2fb65dada1b04da1a1249170a56682161931161b

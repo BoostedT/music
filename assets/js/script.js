@@ -10,6 +10,24 @@ const playlist = [
     artist: "Zac Brown Band",
     file: "assets/music/Chickenfried.m4a",
     cover: "assets/images/album2.jpg"
+  },
+  {
+    title: "Starboy",
+    artist: "The Weeknd",
+    file: "assets/music/starboy.m4a",
+    cover: "assets/images/WKND COVER.png"
+  },
+  {
+    title: "One Last Breath",
+    artist: "Creed",
+    file: "assets/music/creed.m4a",
+    cover: "assets/images/creed.jpg"
+  },
+  {
+    title: "Deja Vu",
+    artist: "Post Malone",
+    file: "assets/music/dejavu.mp3",
+    cover: "assets/images/post.jpg"
   }
 ];
 
@@ -95,6 +113,15 @@ window.addEventListener('DOMContentLoaded', () => {
   if (userGreeting) {
     userGreeting.textContent = `Hello, ${username}`;
   }
+});
+
+// Click on any card to play song
+document.querySelectorAll('.playlist-card').forEach(card => {
+  card.addEventListener('click', () => {
+    const index = card.getAttribute('data-track');
+    loadTrack(index);
+    playTrack();
+  });
 });
 
 // Init
