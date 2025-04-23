@@ -190,3 +190,12 @@ body {
 .playlists-subtitle {
   margin-right: 150px;
 }
+
+.chicken-card {
+  height: 155px;
+  width: 400px;
+  margin-left: 5px;
+}
+.coverArt {
+  scale: 0.7;
+}
