@@ -154,3 +154,87 @@ body {
     font-size: 26px;
   }
 }
+
+.pop-card {
+  border: 2px solid rgb(0, 123, 255);
+  transition: transform 0.7s ease-in-out;
+  height: 130px;
+}
+
+.pop-card:hover {
+  transform: translateY(-5px) scale(1.05);
+}
+
+.country-card {
+  border: 2px solid rgb(0, 123, 255);
+  transition: transform 0.7s ease-in-out;
+  height: 130px;
+}
+
+.country-card:hover {
+  transform: translateY(-5px) scale(1.05);
+}
+
+.rock-card {
+  border: 2px solid rgb(0, 123, 255);
+  transition: transform 0.7s ease-in-out;
+  height: 130px;
+}
+
+.rock-card:hover {
+  transform: translateY(-5px) scale(1.05);
+}
+
+.rnb-card {
+  border: 2px solid rgb(0, 123, 255);
+  transition: transform 0.7s ease-in-out;
+  height: 130px;
+}
+
+.rnb-card:hover {
+  transform: translateY(-5px) scale(1.05);
+}
+
+.soul-card {
+  border: 2px solid rgb(0, 123, 255);
+  transition: transform 0.7s ease-in-out;
+  height: 130px;
+}
+
+.soul-card:hover {
+  transform: translateY(-5px) scale(1.05);
+}
+
+.metal-card {
+  border: 2px solid rgb(0, 123, 255);
+  transition: transform 0.7s ease-in-out;
+  height: 130px;
+}
+
+.metal-card:hover {
+  transform: translateY(-5px) scale(1.05);
+}
+
+.blues-card {
+  border: 2px solid rgb(0, 123, 255);
+  transition: transform 0.7s ease-in-out;
+  height: 130px;
+}
+
+.blues-card:hover {
+  transform: translateY(-5px) scale(1.05);
+}
+
+.lofi-card {
+  border: 2px solid rgb(0, 123, 255);
+  transition: transform 0.7s ease-in-out;
+  height: 130px;
+}
+
+.lofi-card:hover {
+  transform: translateY(-5px) scale(1.05);
+}
+
+.genre-card-items {
+  margin-left: 40px;
+}
