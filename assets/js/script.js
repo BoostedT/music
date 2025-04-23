@@ -6,9 +6,9 @@ const playlist = [
     cover: "assets/images/album1.jpg"
   },
   {
-    title: "Track Two",
-    artist: "Artist B",
-    file: "assets/music/track2.mp3",
+    title: "Chicken Fried",
+    artist: "Zac Brown Band",
+    file: "assets/music/Chickenfried.m4a",
     cover: "assets/images/album2.jpg"
   }
 ];
@@ -87,6 +87,15 @@ function formatTime(seconds) {
   const secs = Math.floor(seconds % 60);
   return `${mins}:${secs < 10 ? "0" + secs : secs}`;
 }
+
+// Greeting the user
+window.addEventListener('DOMContentLoaded', () => {
+  const username = localStorage.getItem("username") || "User";
+  const userGreeting = document.querySelector('.d-flex.align-items-center.mb-4 h4');
+  if (userGreeting) {
+    userGreeting.textContent = `Hello, ${username}`;
+  }
+});
 
 // Init
 loadTrack(currentTrack);
