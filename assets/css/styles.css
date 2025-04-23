@@ -210,3 +210,14 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.pop-card h2,
+.country-card h2,
+.rock-card h2,
+.rnb-card h2,
+.soul-card h2,
+.metal-card h2,
+.blues-card h2,
+.lofi-card h2 {
+  margin-top: -7px;
+}
