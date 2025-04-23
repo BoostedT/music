@@ -199,3 +199,14 @@ body {
 .coverArt {
   scale: 0.7;
 }
+
+.main-message {
+  font-size: 2em;
+  margin: auto;
+  margin-top: 320px;
+}
+
+.title-sub {
+  display: flex;
+  justify-content: center;
+}
