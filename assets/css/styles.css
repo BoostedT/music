@@ -303,10 +303,28 @@ body {
   }
 }
 
+.card-text-chicken {
+  font-size: 1.7em;
+}
+
 @media (max-width: 992px) {
   .card-info {
     margin-left: 140px;
     margin-top: -115px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-info-artists {
+    margin-left: 80px;
+    margin-top: -50px;
+  }
+}
+
+@media (max-width: 992px) {
+  .card-info-new {
+    margin-left: 60px;
+    margin-top: -60px;
   }
 }
 
