@@ -196,9 +196,22 @@ body {
   margin-right: 150px;
 }
 
+@media (max-width: 992px) {
+  .playlists-header {
+    margin-left: 140px;
+  }
+}
+
 .playlists-subtitle {
   margin-right: 150px;
 }
+
+@media (max-width: 992px) {
+  .playlists-subtitle {
+    margin-left: 140px;
+  }
+}
+
 
 .chicken-card {
   height: 155px;
@@ -309,4 +322,7 @@ body {
     margin-left: 155px;
     margin-top: -125px;
   }
+}
+
+@media (max-width: 768px) {
 }
