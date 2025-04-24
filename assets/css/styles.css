@@ -296,3 +296,17 @@ body {
     margin-top: -115px;
   }
 }
+
+@media (max-width: 992px) {
+  .card-text {
+    margin-left: 80px;
+    margin-top: -62px;
+  }
+}
+
+@media (max-width: 992px) {
+  .card-text-star {
+    margin-left: 155px;
+    margin-top: -125px;
+  }
+}
