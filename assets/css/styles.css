@@ -222,6 +222,10 @@ body {
   scale: 0.7;
 }
 
+.card-text-creed {
+  font-size: 1.4em;
+}
+
 .main-message {
   font-size: 2em;
   margin: auto;
